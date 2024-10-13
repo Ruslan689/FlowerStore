@@ -16,7 +16,7 @@ public enum FlowerColor {
     /**
      * Constructor for FlowerColor enum.
      *
-     * @param stringRepresentation the hex code representing the color.
+     * @param newstringRepresentation the hex code representing the color.
      */
     FlowerColor(final String newstringRepresentation) {
         this.stringRepresentation = newstringRepresentation;

@@ -11,6 +11,7 @@ public class FlowerPack {
      * The flower in the pack.
      */
     private Flower flower;
+
     /**
      * The quantity of flowers in the pack.
      */
@@ -19,11 +20,10 @@ public class FlowerPack {
     /**
      * Constructs a FlowerPack with the specified flower and quantity.
      *
-     * @param flower the flower in the pack.
-     * @param quantity the number of flowers.
+     * @param newflower the flower in the pack.
+     * @param newquantity the number of flowers in the pack.
      */
-
-    public FlowerPack(final Flower newflower,final int newquantity) {
+    public FlowerPack(final Flower newflower, final int newquantity) { // Додано пробіл після коми
         this.flower = newflower;
         this.quantity = newquantity;
     }
@@ -48,10 +48,10 @@ public class FlowerPack {
             if (amount > 0) {
                 quantity += amount;
             } else {
-                System.out.println("amount cant be < 0");
+                System.out.println("amount can't be < 0");
             }
         } else {
-            System.out.println("cant be another type");
+            System.out.println("can't be another type");
         }
     }
 }
