@@ -54,6 +54,7 @@ public class StoreTest {
     /**
      * Tests searching for a non-existing flower in the store.
      */
+    
     @Test
     public void testSearchForNonExistingFlower() {
         Flower rose = new Flower();
