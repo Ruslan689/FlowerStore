@@ -23,7 +23,7 @@ public class FlowerPack {
      * @param newflower the flower in the pack.
      * @param newquantity the number of flowers in the pack.
      */
-    public FlowerPack(final Flower newflower, final int newquantity) { // Додано пробіл після коми
+    public FlowerPack(final Flower newflower, final int newquantity) {
         this.flower = newflower;
         this.quantity = newquantity;
     }
