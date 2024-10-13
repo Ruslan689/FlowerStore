@@ -3,12 +3,30 @@ package flower.store;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
+/**
+ * Unit tests for the {@link Store} class.
+ */
 public class StoreTest {
+    /**
+     * Price of roses for testing.
+     */
     private static final double ROSE_PRICE = 5.0;
+    /**
+     * Price of tulips for testing.
+     */
     private static final double TULIP_PRICE = 3.0;
+    /**
+     * Quantity of roses for testing.
+     */
     private static final int ROSE_QUANTITY = 10;
+    /**
+     * Quantity of tulips for testing.
+     */
     private static final int TULIP_QUANTITY = 20;
 
+    /**
+     * Tests searching for existing flowers in the store.
+     */
     @Test
     public void testSearchForExistingFlower() {
         Flower rose = new Flower();
@@ -33,6 +51,9 @@ public class StoreTest {
         Assertions.assertTrue(store.search(tulip));
     }
 
+    /**
+     * Tests searching for a non-existing flower in the store.
+     */
     @Test
     public void testSearchForNonExistingFlower() {
         Flower rose = new Flower();
