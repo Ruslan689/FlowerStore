@@ -22,7 +22,7 @@ public class FlowerBucket {
      */
     public FlowerBucket() {
         this.packs = new ArrayList<FlowerPack>();
-    }    
+    }
 
     /**
      * Calculates the total price of all flower packs in the bucket.
@@ -42,7 +42,7 @@ public class FlowerBucket {
      *
      * @param flowerPack the flower pack to add.
      */
-    public void add(FlowerPack flowerPack) {
+    public void add(final FlowerPack flowerPack) {
         packs.add(flowerPack);
     }
 }

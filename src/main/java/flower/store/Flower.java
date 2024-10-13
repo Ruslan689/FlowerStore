@@ -9,7 +9,7 @@ import lombok.Setter;
 
 
 /**
- * Represents a flower
+ * Represents a flower.
  */
 @Setter
 public class Flower {

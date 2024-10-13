@@ -16,10 +16,10 @@ public enum FlowerColor {
     /**
      * Constructor for FlowerColor enum.
      *
-     * @param colorHex the hex code representing the color.
+     * @param stringRepresentation the hex code representing the color.
      */
-    FlowerColor(String stringRepresentation) {
-        this.stringRepresentation = stringRepresentation;
+    FlowerColor(final String newstringRepresentation) {
+        this.stringRepresentation = newstringRepresentation;
     }
 
     /**

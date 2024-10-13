@@ -17,21 +17,15 @@ public class FlowerPack {
     private int quantity;
 
     /**
-     * Default constructor for FlowerPack.
-     */
-    public FlowerPack() {
-    }
-
-    /**
      * Constructs a FlowerPack with the specified flower and quantity.
      *
      * @param flower the flower in the pack.
      * @param quantity the number of flowers.
      */
 
-    public FlowerPack(Flower flower, int quantity) {
-        this.flower = flower;
-        this.quantity = quantity;
+    public FlowerPack(final Flower newflower,final int newquantity) {
+        this.flower = newflower;
+        this.quantity = newquantity;
     }
 
     /**
@@ -46,10 +40,10 @@ public class FlowerPack {
     /**
      * Adds more flowers to the pack if they are of the same type.
      *
-     * @param newFlower the flower to add (must be of the same type as the existing flowers).
+     * @param newFlower the flower to add.
      * @param amount the number of flowers to add (must be greater than 0).
      */
-    public void add(Flower newFlower, int amount) {
+    public void add(final Flower newFlower, final int amount) {
         if (newFlower.getFlowerType().equals(flower.getFlowerType())) {
             if (amount > 0) {
                 quantity += amount;

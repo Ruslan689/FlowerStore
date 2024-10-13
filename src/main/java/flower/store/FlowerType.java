@@ -10,7 +10,7 @@ public enum FlowerType {
     /**
      * Represents a chamomile flower.
      */
-    CHAMOMILE, 
+    CHAMOMILE,
     /**
      * Represents a rose flower.
      */
